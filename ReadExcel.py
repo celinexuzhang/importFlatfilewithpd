@@ -1,6 +1,5 @@
 import pandas as pd
 #make sure package "xlrd" installed
-
 #Ex1: load excel file and using parse method
 file_location='C:/Users/celin/OneDrive/Desktop/Learning/python/ImportandCleandatainPython1/battledeath.xlsx'
 battledeath=pd.ExcelFile(file_location)
